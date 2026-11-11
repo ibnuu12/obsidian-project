@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "31d05667f2a1b725",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0304e3d15f3ba64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74158e2153cad16f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c783820de3c68e95",
+    "type": "split",
+    "children": [
+      {
+        "id": "49379d2253854874",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27df0b6649107270",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "04f452b79c45ffdb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "beb256918ed58b5a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d00d713e221f9097",
+    "type": "split",
+    "children": [
+      {
+        "id": "54fb4c42e15ddfce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "818d82e3333389ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Basic Learning Obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Basic Learning Obsidian"
+            }
+          },
+          {
+            "id": "14a5580a7add1ab9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Basic Learning Obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Basic Learning Obsidian"
+            }
+          },
+          {
+            "id": "c686f2f861c0249b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0d975f5f74e55bfb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ceabcd70443bbfff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Basic Learning Obsidian.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Basic Learning Obsidian"
+            }
+          },
+          {
+            "id": "c4c83e3617410844",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "27df0b6649107270",
+  "lastOpenFiles": [
+    "20 MOCs/MOC - Economics.md",
+    "install.cmd",
+    "30 Notes/Inflation Measurement Indices (CPI, PPI, PCE).md",
+    "20 MOCs/Master Map of Content.md",
+    "30 Notes/Federal Funds Rate & BI Rate.md",
+    "30 Notes/Economic Growth Indicators (GDP & PMI).md",
+    "30 Notes/Labor Market Indicators (NFP & Claims).md",
+    "30 Notes/Knowledge Management & Research Lifecycle.md",
+    "30 Notes/Sector Classification & Rotation Strategies.md",
+    "30 Notes/Yield Curve Dynamics & Recession Indicators.md",
+    "30 Notes/Central Bank Liquidity Operations (OMO, QE, QT).md",
+    "30 Notes/Inflation Dynamics & Scenarios.md",
+    "30 Notes/APBN, Subsidi, & Defisit Fiskal.md",
+    "30 Notes/MOC - Investing/Portfolio Management/Capital Asset Pricing Model (CAPM).md",
+    "20 MOCs/MOC - Investing.md",
+    "30 Notes/MOC - Investing/Portfolio Management",
+    "30 Notes/MOC - Investing",
+    "20 MOCs/MOC - Financial Markets.md",
+    "20 MOCs/MOC - Research & Mental Models.md",
+    "00 Meta/Templates/tp-reference.md",
+    "00 Meta/Templates/tp-moc.md",
+    "00 Meta/Templates/tp-master-moc.md",
+    "00 Meta/Templates/tp-inbox.md",
+    "00 Meta/Templates/tp-daily.md",
+    "00 Meta/Templates/tp-country.md",
+    "00 Meta/Templates/tp-company.md",
+    "30 Notes/Zettelkasten Knowledge Lifecycle.md",
+    "30 Notes/Progressive Summarization Methodology.md",
+    "10 Inbox/Untitled.base",
+    "Untitled.canvas",
+    "30 Notes/MOC - Research Workflow",
+    "30 Notes/Macroeconomics & Investing Infrastructure/New folder",
+    "30 Notes/MOC - Investment Thesis",
+    "30 Notes/MOC - Mental Models",
+    "30 Notes/MOC - Investing/Risk-Management",
+    "30 Notes/Macroeconomics & Investing Infrastructure/MOC - Investing/New folder",
+    "30 Notes/Macroeconomics & Investing Infrastructure/Untitled.canvas"
+  ]
+}

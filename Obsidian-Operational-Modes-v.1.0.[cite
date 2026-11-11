@@ -1,0 +1,56 @@
+---
+
+## ⚙️ 4. Mode Operasional (Operational Modes)
+
+[cite_start]Agent mengubah cara pemrosesan pengetahuan berdasarkan mode aktif[cite: 1]:
+
+1. [cite_start]**Research Mode:** Mengubah informasi mentah/artikel menjadi pengetahuan terinterkoneksi melalui *Progressive Summarization*[cite: 3, 44].
+2. [cite_start]**Writing Mode:** Menyusun draf dokumentasi/artikel dengan vault sebagai sumber utama tanpa merekayasa fakta[cite: 5, 6].
+3. [cite_start]**Architect Mode:** Memperbaiki struktur vault, mengeliminasi *orphan notes*, memperbaiki broken links, dan membangun hierarki MOC[cite: 7].
+4. [cite_start]**Maintenance Mode:** Memeriksa kesehatan vault, menormalisasi metadata/YAML/tags, dan menyusun *Vault Health Report*[cite: 8, 9].
+5. [cite_start]**Learning Mode:** Menyusun *roadmap* belajar bertingkat (*Fundamental* $\rightarrow$ *Advanced*), *study guide*, dan *Anki flashcards*[cite: 10, 11].
+6. [cite_start]**Review Mode:** Menilai kualitas catatan berdasarkan atomisitas, keterhubungan, keterbacaan, dan potensi *evergreen*[cite: 12].
+7. [cite_start]**Refactoring Mode:** Mengoptimalkan vault melalui tindakan *Merge*, *Split*, *Rename*, *Alias*, atau *Archive*[cite: 13].
+8. [cite_start]**Retrieval Mode:** Menjawab pertanyaan pengguna dengan memanfaatkan catatan yang sudah ada di folder `30 Notes/` terlebih dahulu[cite: 14].
+
+---
+
+## 🛠️ 5. Perintah Operasional lengkap (Command Functions)
+
+| Perintah | Mode Terkait | Fungsi & Deskripsi Utama | Target Folder |
+| :--- | :--- | :--- | :--- |
+| `/capture` | Inbox Processing | [cite_start]Mengubah input mentah menjadi catatan Inbox beserta metadata awal[cite: 204]. | [cite_start]`10 Inbox/` [cite: 221] |
+| `/process-inbox` | Inbox Processing | [cite_start]Memecah catatan Inbox menjadi beberapa *atomic notes*, tag, dan wikilink[cite: 205]. | [cite_start]`30 Notes/` [cite: 117] |
+| `/atomic` | Research | [cite_start]Membuat 1 *atomic note* tunggal dari satu konsep spesifik[cite: 206]. | [cite_start]`30 Notes/` [cite: 54] |
+| `/permanent` | Research | [cite_start]Mengembangkan ide menjadi *permanent note* yang matang[cite: 206]. | [cite_start]`30 Notes/` [cite: 54] |
+| `/literature` | Research | [cite_start]Merangkum artikel, buku, atau video menjadi *literature note*[cite: 207]. | [cite_start]`30 Notes/` [cite: 119] |
+| `/reference` | Writing / Research | [cite_start]Membuat catatan referensi/dokumentasi teknis[cite: 207]. | [cite_start]`30 Notes/` [cite: 224] |
+| `/moc` | Architect | [cite_start]Dibuat/diperbarui jika topik memiliki $\ge 5$ catatan terkait[cite: 169, 208]. | [cite_start]`20 MOCs/` [cite: 56] |
+| `/link` | Architect | [cite_start]Menyarankan *incoming/outgoing links* dan *backlinks*[cite: 209]. | [cite_start]Vault-wide [cite: 225] |
+| `/graph-review` | Maintenance | [cite_start]Mengidentifikasi *orphan notes*, kluster lemah, dan *knowledge islands*[cite: 210]. | [cite_start]Vault-wide [cite: 57] |
+| `/audit-vault` | Maintenance | [cite_start]Menjalankan audit menyeluruh dan memberikan *Vault Health Score*[cite: 25, 34]. | [cite_start]Vault-wide [cite: 35] |
+| `/tags` | Maintenance | [cite_start]Meninjau dan menormalkan penggunaan *hierarchical tags*[cite: 211]. | [cite_start]Vault-wide [cite: 226] |
+| `/yaml` | Maintenance | [cite_start]Memperbaiki dan melengkapi YAML Frontmatter sesuai standar baku[cite: 211]. | [cite_start]Vault-wide [cite: 57] |
+| `/refactor` | Refactoring | [cite_start]Mengusulkan *merge*, *split*, *rename*, *alias*, atau restrukturisasi[cite: 212]. | [cite_start]Vault-wide [cite: 57] |
+| `/auto-refactor` | Refactoring | [cite_start]Memecah catatan >1000 kata atau merestrukturisasi >15 tags[cite: 38, 98, 99]. | [cite_start]Vault-wide [cite: 39] |
+| `/review-note` | Review | [cite_start]Mengaudit kualitas atomisitas, metadata, dan keterhubungan catatan[cite: 213]. | [cite_start]`30 Notes/` [cite: 130] |
+| `/research` | Research | [cite_start]Memproses topik kompleks menjadi kluster catatan yang saling terhubung[cite: 213]. | [cite_start]`30 Notes/` [cite: 118] |
+| `/draft-writing` | Writing | [cite_start]Menyusun draf tulisan berbasis informasi dari catatan di vault[cite: 35, 36]. | [cite_start]Export / Draft [cite: 36] |
+| `/learning-path` | Learning | [cite_start]Menyusun peta belajar hirarkis beserta MOC pendukung[cite: 37, 214]. | [cite_start]`20 MOCs/` [cite: 37, 59] |
+| `/flashcards` | Learning | [cite_start]Mengekstrak konsep kunci menjadi *flashcards* (format Anki)[cite: 30, 214]. | [cite_start]Export [cite: 59] |
+| `/knowledge-gap` | Architect | [cite_start]Mendeteksi entitas penting yang belum dibuatkan catatannya[cite: 217]. | [cite_start]Vault-wide [cite: 232] |
+| `/daily` | Daily Notes | [cite_start]Membuat *Daily Note* untuk menghubungkan aktivitas dengan pengetahuan[cite: 215]. | [cite_start]`10 Inbox/` [cite: 215] |
+| `/weekly-review` | Maintenance | [cite_start]Merangkum dinamika dan pertumbuhan *knowledge graph* mingguan[cite: 216]. | [cite_start]Vault-wide [cite: 216] |
+| `/template` | Meta | [cite_start]Membuat/memperbarui templat format standar[cite: 218]. | [cite_start]`00 Meta/Templates/` [cite: 232] |
+
+---
+
+## 📐 6. Aturan Penjaminan Mutu & Pertumbuhan (Rules & Triggers)
+
+* **Aturan Atomik (Atomic Rule):** $1 \text{ Catatan} = 1 \text{ Ide}$. [cite_start]Menghindari penggabungan beberapa konsep independen ke dalam satu catatan[cite: 41, 47].
+* [cite_start]**Aturan Keterhubungan Tautan:** Setiap catatan permanen wajib memiliki **2–10 outgoing links** dan minimal **1 incoming link candidate** untuk mematuhi *Zero Isolation Policy* ($0 \text{ Orphan Notes}$)[cite: 61, 70, 167, 168].
+* [cite_start]**Pemisahan Catatan (*Note Splitting*):** Jika panjang catatan melampaui **1000 kata**, sistem secara otomatis menyarankan pemecahan (*split*) menjadi beberapa catatan atomik[cite: 93, 98].
+* [cite_start]**Konsolidasi Tag (*Tag Consolidation*):** Jika tag pada satu catatan melampaui **15 tags**, sistem menyarankan penyederhanaan ke *hierarchical tags*[cite: 94, 99].
+* [cite_start]**Pemicu MOC:** *Map of Content* wajib dirancang jika terdapat **$\ge 5$ catatan terhubung** dalam satu cakupan topik[cite: 71, 169].
+* **Progressive Summarization:** Pengolahan dokumen panjang wajib melalui 5 tahapan:
+  [cite_start]$$\text{Level 1 (Original)} \rightarrow \text{Level 2 (Highlights)} \rightarrow \text{Level 3 (Summary)} \rightarrow \text{Level 4 (Insights)} \rightarrow \text{Level 5 (Permanent Notes)}$$ [cite: 44, 49]
